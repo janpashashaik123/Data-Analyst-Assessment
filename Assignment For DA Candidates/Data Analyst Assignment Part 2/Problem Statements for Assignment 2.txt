@@ -1,0 +1,17 @@
+Instructions:
+1. Copy the 7 questions into a Jupyter notebook and write the code to find answers. 
+2. We encourage use of lambda expression and groupby wherever applicable
+
+Question 1: Some of the orders are stored in another csv file named `bigkart_newsales`. Read the csv file, store it in a data frame and add it to the `bigkart_sales` data frame. Find the total sales value of the category 'Office Supplies' after combining the dataframes
+
+Question 2: There are some duplicate rows in the data frame. Drop these rows and calculate the total sales value of the category Office Supplies.
+
+Question 3: Find the most profitable category and sub category combination based on the net profit.
+
+Question 4: How many invalid order IDs are there in the data frame. An order id is of the form AZ-2011-Y where Y represents a whole number. A Order ID is said to be valid only if Y consists of 7 digits. Find the number of invalid order order IDs in the data frame.
+
+Question 5: Find the top 25 orders based on sales value and find the number of orders which belong to furniture category.
+
+Question 6: Among the orders with sales>250 and profit>50, find the product name of the fourth highest order based on sales value.
+
+Question 7: Remove the orders with negative profit by dropping the corresponding rows with negative `Profit`. Find the product that makes the lowest profit per Quantity in the Technology category.
